@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+
+  & > * {
+    margin: 15px;
+  }
+}
+
+button,
+input,
+img {
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: cadetblue;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+img {
+  border: 1px solid white;
+  width: 350px;
+  height: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+
+  & > * {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.meme-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+
+  & > * {
+    margin: 15px;
+  }
+}
+
+.headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
